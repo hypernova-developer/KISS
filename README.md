@@ -13,3 +13,9 @@ Run the executable followed by the complex kernel/system command string you want
 ```bash
 ./kiss "SYS_ALLOC --kernel-space --target-memory=0x7FFF"
 ```
+
+## Architecture & Style
+KISS strictly follows the **KISS** (Keep It Simple, Stupid) principle and is optimized for low memory usage. The codebase uses the Allman style for bracket alignment, ensuring high readability and seamless minification for single-line deployment architectures.
+
+## License
+This project is open-source and licensed under the **GNU GPL v3.0**. See the LICENSE file for details. All rights reserved by **hypernova-developer**.
